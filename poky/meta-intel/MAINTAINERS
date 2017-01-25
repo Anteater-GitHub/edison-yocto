@@ -1,0 +1,64 @@
+This file contains a list of BSP maintainers for the BSPs contained in
+the meta-intel repository.
+
+The purpose of this file is to provide contact information for
+specific BSPs and other code contained within meta-intel.  You should
+address questions and patches for a particular BSP or other code to
+the appropriate maintainer listed in this file, cc'ing the meta-intel
+mailing list.  This ensures that your question or patch will be
+addressed by the appropriate person, and that it will be seen by other
+users who may be facing similar problems or questions.
+
+Please see the top-level README file for guidelines relating to the
+details of submitting patches, reporting problems, or asking questions
+about any of the BSPs or other recipes contained within meta-intel.
+
+Descriptions of section entries:
+
+	M: Mail patches to: FullName <address@domain>
+	F: Files and directories with wildcard patterns.
+	   A trailing slash includes all files and subdirectory files.
+	   F:	meta-crownbay/	all files in and below meta-crownbay
+	   F:	meta-crownbay/*	all files in meta-crownbay, but not below
+	   One pattern per line.  Multiple F: lines acceptable.
+
+Please keep this list in alphabetical order.
+
+Maintainers List (try to look for most precise areas first)
+
+		-----------------------------------
+COMMON
+M:	Nitin A Kamble<nitin.a.kamble@intel.com>
+F:	common/
+
+CROWNBAY
+M:	Nitin A Kamble<nitin.a.kamble@intel.com>
+F:	meta-crownbay/
+
+CRYSTALFOREST
+M:      Wu Chia Chuan <chia.chuan.wu@intel.com>
+F:      meta-crystalforest/
+
+EMENLOW
+M:	Nitin A Kamble<nitin.a.kamble@intel.com>
+F:	meta-emenlow/
+
+FRI2
+M:	Darren Hart <dvhart@linux.intel.com>
+F:	meta-fri2/
+
+JASPERFOREST
+M:	Nitin A Kamble<nitin.a.kamble@intel.com>
+F:	meta-jasperforest/
+
+ROMLEY
+M:      Wu Chia Chuan <chia.chuan.wu@intel.com>
+F:      meta-romley/
+
+SUGARBAY
+M:	Nitin A Kamble <nitin.a.kamble@intel.com>
+F:	meta-sugarbay/
+
+TLK
+M:	Saul Wold <saul.wold@intel.com>
+F:	meta-tlk/

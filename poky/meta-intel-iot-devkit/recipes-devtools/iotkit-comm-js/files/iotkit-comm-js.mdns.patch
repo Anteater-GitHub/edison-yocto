@@ -1,0 +1,13 @@
+diff --git a/package.json b/package.json
+index 2b65c3f..bd1855f 100644
+--- a/package.json
++++ b/package.json
+@@ -17,7 +17,7 @@
+   },
+   "repository": "",
+   "dependencies": {
+-    "mdns2": ">=2.1.3",
++    "mdns": ">=2.1.3",
+     "mqtt": "0.3.13",
+     "zmq": ">=2.6.0",
+     "commander": "*",
