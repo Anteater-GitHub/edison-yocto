@@ -1,10 +1,10 @@
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
-IMAGE_INSTALL += "wyliodrin-server"
-IMAGE_INSTALL += "openjdk-8-jdk"
-IMAGE_INSTALL += "tinyb"
-IMAGE_INSTALL += "tinyb-dev"
+#IMAGE_INSTALL += "wyliodrin-server"
+#IMAGE_INSTALL += "openjdk-8-jdk"
+#IMAGE_INSTALL += "tinyb"
+#IMAGE_INSTALL += "tinyb-dev"
 IMAGE_INSTALL += "git"
 IMAGE_INSTALL += "python-pip"
 IMAGE_INSTALL += "vim"
@@ -25,7 +25,7 @@ IMAGE_INSTALL += "iotivity-service-dev"
 IMAGE_INSTALL += "iotivity-service-staticdev"
 IMAGE_INSTALL += "iotivity-service-samples"
 IMAGE_INSTALL += "iotivity-simple-client"
-IMAGE_INSTALL += "iotivity-sensorboard"
+#IMAGE_INSTALL += "iotivity-sensorboard"
 
 ROOTFS_POSTPROCESS_COMMAND_append += "install_edison_repo ;"
 ROOTFS_POSTPROCESS_COMMAND_append += "symlink_node_modules ;"
