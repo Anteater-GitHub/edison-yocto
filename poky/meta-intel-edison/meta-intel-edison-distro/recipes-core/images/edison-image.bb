@@ -81,8 +81,8 @@ IMAGE_INSTALL += "libgomp"
 IMAGE_INSTALL += "sst-fw-bin"
 
 # ALSA lib and utilities
-IMAGE_INSTALL += "alsa-lib"
-IMAGE_INSTALL += "alsa-utils-alsamixer alsa-utils-alsactl alsa-utils-aplay alsa-utils-amixer"
+#IMAGE_INSTALL += "alsa-lib"
+#IMAGE_INSTALL += "alsa-utils-alsamixer alsa-utils-alsactl alsa-utils-aplay alsa-utils-amixer"
 
 # Python and some basic modules
 IMAGE_INSTALL += "python"
@@ -112,10 +112,10 @@ IMAGE_INSTALL += "lsof"
 IMAGE_INSTALL += "iperf"
 
 # Add pulseaudio
-IMAGE_INSTALL += "pulseaudio-server libpulsecore libpulsecommon libpulse libpulse-simple pulseaudio-misc pulseaudio-service"
+#IMAGE_INSTALL += "pulseaudio-server libpulsecore libpulsecommon libpulse libpulse-simple pulseaudio-misc pulseaudio-service"
 
 #Add Gstreamer
-IMAGE_INSTALL += "gstreamer1.0 gstreamer1.0-meta-base gstreamer1.0-meta-audio"
+#IMAGE_INSTALL += "gstreamer1.0 gstreamer1.0-meta-base gstreamer1.0-meta-audio"
 
 # Those are necessary to manually create partitions and file systems on the eMMC
 IMAGE_INSTALL += "parted"
