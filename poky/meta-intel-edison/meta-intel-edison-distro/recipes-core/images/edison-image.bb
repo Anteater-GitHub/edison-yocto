@@ -51,8 +51,8 @@ IMAGE_INSTALL += "ap-mode-toggle"
 IMAGE_INSTALL += "wireless-tools"
 IMAGE_INSTALL += "wpa-supplicant"
 IMAGE_INSTALL += "hostapd-daemon"
-IMAGE_INSTALL += "bluez5-dev"
-IMAGE_INSTALL += "bluez5-obex"
+#IMAGE_INSTALL += "bluez5-dev"
+#IMAGE_INSTALL += "bluez5-obex"
 IMAGE_INSTALL += "kernel-modules"
 IMAGE_INSTALL += "ethtool"
 IMAGE_INSTALL += "iptables"
@@ -64,18 +64,18 @@ IMAGE_INSTALL += "pciutils"
 IMAGE_INSTALL += "usbutils"
 IMAGE_INSTALL += "ldd"
 IMAGE_INSTALL += "i2c-tools"
-IMAGE_INSTALL += "watchdog-sample"
+#IMAGE_INSTALL += "watchdog-sample"
 IMAGE_INSTALL += "pwr-button-handler"
-IMAGE_INSTALL += "blink-led"
+#IMAGE_INSTALL += "blink-led"
 IMAGE_INSTALL += "post-install"
 IMAGE_INSTALL += "resize-rootfs"
 IMAGE_INSTALL += "systemd-analyze"
 IMAGE_INSTALL += "wget"
 IMAGE_INSTALL += "sudo"
 # Allows to enable open pam feature
-IMAGE_INSTALL += "libpam"
+#IMAGE_INSTALL += "libpam"
 # Allows to enable OpenMP feature
-IMAGE_INSTALL += "libgomp"
+#IMAGE_INSTALL += "libgomp"
 
 # Add audio firmware
 IMAGE_INSTALL += "sst-fw-bin"
@@ -85,9 +85,9 @@ IMAGE_INSTALL += "sst-fw-bin"
 #IMAGE_INSTALL += "alsa-utils-alsamixer alsa-utils-alsactl alsa-utils-aplay alsa-utils-amixer"
 
 # Python and some basic modules
-IMAGE_INSTALL += "python"
-IMAGE_INSTALL += "python-dbus python-smartpm python-pygobject python-argparse"
-IMAGE_INSTALL += "python-distutils python-pkgutil python-audio python-image python-imaging python-email python-netserver python-xmlrpc python-ctypes python-html python-json python-compile python-misc python-numbers python-unittest python-pydoc python-importlib"
+#IMAGE_INSTALL += "python"
+#IMAGE_INSTALL += "python-dbus python-smartpm python-pygobject python-argparse"
+#IMAGE_INSTALL += "python-distutils python-pkgutil python-audio python-image python-imaging python-email python-netserver python-xmlrpc python-ctypes python-html python-json python-compile python-misc python-numbers python-unittest python-pydoc python-importlib"
 
 # Wifi firmware
 IMAGE_INSTALL += "bcm43340-fw"
@@ -106,10 +106,10 @@ IMAGE_INSTALL += "crashlog"
 IMAGE_INSTALL += "cleanjournal"
 
 # Adds various other tools
-IMAGE_INSTALL += "tcpdump"
-IMAGE_INSTALL += "net-tools"
-IMAGE_INSTALL += "lsof"
-IMAGE_INSTALL += "iperf"
+#IMAGE_INSTALL += "tcpdump"
+#IMAGE_INSTALL += "net-tools"
+#IMAGE_INSTALL += "lsof"
+#IMAGE_INSTALL += "iperf"
 
 # Add pulseaudio
 #IMAGE_INSTALL += "pulseaudio-server libpulsecore libpulsecommon libpulse libpulse-simple pulseaudio-misc pulseaudio-service"
@@ -129,30 +129,30 @@ IMAGE_INSTALL += "swig"
 
 
 # Edison Arduino stuff
-IMAGE_INSTALL += "clloader"
+#IMAGE_INSTALL += "clloader"
 
 
 # Edison Middleware stuff
-IMAGE_INSTALL += "packagegroup-core-buildessential"
-IMAGE_INSTALL += "iotkit-opkg"
-IMAGE_INSTALL += "zeromq-dev"
-IMAGE_INSTALL += "cppzmq-dev"
-IMAGE_INSTALL += "paho-mqtt-dev"
-IMAGE_INSTALL += "mdns-dev"
+#IMAGE_INSTALL += "packagegroup-core-buildessential"
+#IMAGE_INSTALL += "iotkit-opkg"
+#IMAGE_INSTALL += "zeromq-dev"
+#IMAGE_INSTALL += "cppzmq-dev"
+#IMAGE_INSTALL += "paho-mqtt-dev"
+#IMAGE_INSTALL += "mdns-dev"
 #IMAGE_INSTALL += "iotkit-comm-js"
 #IMAGE_INSTALL += "iotkit-comm-c-dev"
-IMAGE_INSTALL += "iotkit-agent"
-IMAGE_INSTALL += "iotkit-lib-c-dev"
-IMAGE_INSTALL += "xdk-daemon"
+#IMAGE_INSTALL += "iotkit-agent"
+#IMAGE_INSTALL += "iotkit-lib-c-dev"
+#IMAGE_INSTALL += "xdk-daemon"
 IMAGE_INSTALL += "oobe"
 
 # mosquitto and dependencies
-IMAGE_INSTALL += "mosquitto-dev"
-IMAGE_INSTALL += "mosquitto-clients"
+#IMAGE_INSTALL += "mosquitto-dev"
+#IMAGE_INSTALL += "mosquitto-clients"
 
 # node and sub-components
-IMAGE_INSTALL += "nodejs-dev"
-IMAGE_INSTALL += "nodejs-npm"
+#IMAGE_INSTALL += "nodejs-dev"
+#IMAGE_INSTALL += "nodejs-npm"
 
 # MRAA
 #IMAGE_INSTALL += "mraa-dev"
@@ -168,16 +168,16 @@ IMAGE_INSTALL += "mcu-fw-load"
 IMAGE_INSTALL += "mcu-fw-bin"
 
 # nfs
-IMAGE_INSTALL += "nfs-utils"
+#IMAGE_INSTALL += "nfs-utils"
 
 # Add oFono
-IMAGE_INSTALL += "ofono"
+#IMAGE_INSTALL += "ofono"
 
 # Add battery level detection
 IMAGE_INSTALL += "battery-voltage"
 
 # Add linux performance monitoring tool
-IMAGE_INSTALL += "perf"
+#IMAGE_INSTALL += "perf"
 
-IMAGE_INSTALL += "sketch-check"
+#IMAGE_INSTALL += "sketch-check"
 
