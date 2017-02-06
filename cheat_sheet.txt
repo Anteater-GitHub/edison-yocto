@@ -1,0 +1,15 @@
+to add modified files
+	git add -u :/
+to commit files
+	git commit -m "comment"
+to add branch
+	git checkout -b newbranch
+to push branch to github
+	git push origin newbranch
+to check git status of all tracking files
+	git status -uno
+to check current working branch
+	git branch
+
+post build script
+	../poky/meta-intel-edison/utils/flash/postBuild.sh
