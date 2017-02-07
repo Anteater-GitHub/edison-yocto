@@ -13,3 +13,18 @@ to check current working branch
 
 post build script
 	../poky/meta-intel-edison/utils/flash/postBuild.sh
+
+linux-externalsrc local git mirror locates at
+	build_edison/downloads/git2/github.com.Anteater-GitHub.edison-linux.git
+to push linux-externalsrc commits to remote server
+	git push https://github.com/Anteater-GitHub/edison-linux.git
+the local git clone is at 
+	../poky/linux-kernel/
+Can commit on local linux clone to local git, then push the commits to remote git
+
+move head back to previous commit	
+	git reset --hard commitID
+from local git push to remote (roll back commit)
+	git push -f origin edison-3.10.98
+get the latest repo
+	git pull 
