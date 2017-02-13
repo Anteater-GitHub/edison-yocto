@@ -86,7 +86,8 @@ IMAGE_INSTALL += "sst-fw-bin"
 
 # Python and some basic modules
 #IMAGE_INSTALL += "python"
-#IMAGE_INSTALL += "python-dbus python-smartpm python-pygobject python-argparse"
+#IMAGE_INSTALL += "python-dbus python-smartpm python-pygobject"
+IMAGE_INSTALL  += "python-argparse"
 #IMAGE_INSTALL += "python-distutils python-pkgutil python-audio python-image python-imaging python-email python-netserver python-xmlrpc python-ctypes python-html python-json python-compile python-misc python-numbers python-unittest python-pydoc python-importlib"
 
 # Wifi firmware
