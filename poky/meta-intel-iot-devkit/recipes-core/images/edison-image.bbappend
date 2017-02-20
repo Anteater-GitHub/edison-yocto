@@ -11,6 +11,10 @@ IMAGE_INSTALL += "vim"
 #IMAGE_INSTALL += "nano"
 #IMAGE_INSTALL += "links"
 
+# feature to support 3g modem
+IMAGE_INSTALL += "ppp"
+IMAGE_INSTALL += "usb-modeswitch"
+
 #IMAGE_INSTALL += "iotivity"
 #IMAGE_INSTALL += "iotivity-dev"
 #IMAGE_INSTALL += "iotivity-tests"
