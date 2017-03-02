@@ -13,6 +13,7 @@ IMAGE_INSTALL += "vim"
 
 # feature to support 3g modem
 IMAGE_INSTALL += "ppp"
+IMAGE_INSTALL += "screen"
 IMAGE_INSTALL += "usb-modeswitch"
 
 #IMAGE_INSTALL += "iotivity"
