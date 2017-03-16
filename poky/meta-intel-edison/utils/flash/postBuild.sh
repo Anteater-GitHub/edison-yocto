@@ -114,3 +114,6 @@ echo "**** Done ***"
 echo "Files ready to flash in $build_dir/toFlash/"
 echo "Run the flashall script there to start flashing."
 echo "*************"
+
+rm $build_dir/toFlash.7z
+7za a $build_dir/toFlash.7z $build_dir/toFlash/

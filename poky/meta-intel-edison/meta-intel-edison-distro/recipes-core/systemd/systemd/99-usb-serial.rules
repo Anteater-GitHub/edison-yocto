@@ -1,0 +1,4 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea71", ATTRS{interface}=="CP2108 GNSS", SYMLINK+="ttyUSBGPS"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea71", ATTRS{interface}=="CP2108 TMC", SYMLINK+="ttyUSBTIVA"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea71", ATTRS{interface}=="CP2108 433M Radio", SYMLINK+="ttyUSBRF"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea71", ATTRS{interface}=="CP2108 RTK Output", SYMLINK+="ttyUSBRTK"

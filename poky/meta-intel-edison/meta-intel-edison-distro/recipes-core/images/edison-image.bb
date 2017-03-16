@@ -80,6 +80,9 @@ IMAGE_INSTALL += "sudo"
 # Add audio firmware
 IMAGE_INSTALL += "sst-fw-bin"
 
+# add gcc to the image
+IMAGE_INSTALL += "gcc"
+
 # ALSA lib and utilities
 #IMAGE_INSTALL += "alsa-lib"
 #IMAGE_INSTALL += "alsa-utils-alsamixer alsa-utils-alsactl alsa-utils-aplay alsa-utils-amixer"
