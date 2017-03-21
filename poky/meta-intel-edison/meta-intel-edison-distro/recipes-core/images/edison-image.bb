@@ -81,7 +81,7 @@ IMAGE_INSTALL += "sudo"
 IMAGE_INSTALL += "sst-fw-bin"
 
 # add gcc to the image
-IMAGE_INSTALL += "gcc"
+# IMAGE_INSTALL += "gcc"
 
 # ALSA lib and utilities
 #IMAGE_INSTALL += "alsa-lib"
@@ -137,7 +137,7 @@ IMAGE_INSTALL += "swig"
 
 
 # Edison Middleware stuff
-#IMAGE_INSTALL += "packagegroup-core-buildessential"
+IMAGE_INSTALL += "packagegroup-core-buildessential"
 #IMAGE_INSTALL += "iotkit-opkg"
 #IMAGE_INSTALL += "zeromq-dev"
 #IMAGE_INSTALL += "cppzmq-dev"
