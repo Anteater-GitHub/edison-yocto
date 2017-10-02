@@ -43,6 +43,11 @@ IMAGE_FEATURES += "package-management ssh-server-openssh"
 # Allow passwordless root login and postinst logging
 IMAGE_FEATURES += "debug-tweaks"
 
+# CAN utilities
+IMAGE_INSTALL += "iproute2"
+IMAGE_INSTALL += "libsocketcan"
+IMAGE_INSTALL += "canutils"
+
 IMAGE_INSTALL += "connman"
 IMAGE_INSTALL += "connman-client"
 IMAGE_INSTALL += "connman-tools"
