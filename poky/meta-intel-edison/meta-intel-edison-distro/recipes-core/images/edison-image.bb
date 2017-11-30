@@ -47,6 +47,8 @@ IMAGE_FEATURES += "debug-tweaks"
 IMAGE_INSTALL += "iproute2"
 IMAGE_INSTALL += "libsocketcan"
 IMAGE_INSTALL += "canutils"
+# RTKLIB
+IMAGE_INSTALL += "rtklib"
 
 IMAGE_INSTALL += "connman"
 IMAGE_INSTALL += "connman-client"
